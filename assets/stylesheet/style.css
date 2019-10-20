@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+/* ------------header---------- */
+
+
+
+.container_all {
+    display: flex;
+}
+header {
+    width:300px;
+    height: 100vh;
+    position: relative;
+}
+.top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    overflow: auto;
+    background-color: #735396;
+
+}
+
+.wrapper_welcome{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome {
+    height: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(256,256,256,0.1)), url(../media/first3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    /* background-attachment: fixed; */
+}
+
+/* ------------ */
+
+.name {
+    font-size: 2.5rem;
+    color: #0C171F;
+    font-weight: bold;
+}
+
+.name:hover {
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+    /* text-align: center */
+}
+
+.icon {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.fab {
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
+.connect {
+    font-size: 2rem;
+    color: white;
+}
+
+.connect,.icon {
+    padding-bottom: 2rem;
+}
+
+/* .welcome-image{
+    position: relative;
+}
+
+.puneet-pic{
+    position: absolute;
+    right: 350px;
+    bottom: 200px;
+    border-radius: 50%;
+    width: 12%;
+} */
+
+/* .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
